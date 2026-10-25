@@ -1,19 +1,19 @@
 #include "Base.h"
 
 Base::Base() : name("") {
-    std::cout << "[Base] конструктор по умолчанию\n";
+    std::cout << "[Base] default constructor\n";
 }
 
 Base::Base(const std::string& n) : name(n) {
-    std::cout << "[Base] конструктор с параметрами\n";
+    std::cout << "[Base] parameterized constructor\n";
 }
 
 Base::Base(const Base& other) : name(other.name) {
-    std::cout << "[Base] конструктор копирования\n";
+    std::cout << "[Base] copy constructor\n";
 }
 
 Base::~Base() {
-    std::cout << "[Base] деструктор\n";
+    std::cout << "[Base] destructor\n";
 }
 
 std::string Base::getName() const { return name; }
