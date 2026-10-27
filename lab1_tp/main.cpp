@@ -1,3 +1,5 @@
+// lab1 variant 5
+// Змушко Дарина
 #include <iostream>
 #include <string>
 #include <limits>
